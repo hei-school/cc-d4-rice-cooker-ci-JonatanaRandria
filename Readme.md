@@ -27,13 +27,8 @@ To run the application, just enter the following command:
     ruby ./src/service/mains.rb
 ```
 
-## Bug :bug:
-When leaving the application, it doesn't directly leave but still loop on the menu. 
-
-
 
 ## Workflows
 I used [Circle CI](https://circleci.com/) to run my workflows.
 
-The workflows configuration file is viewable in _.circleci/config.yml_. Here it only aims at running
-tests.
+As excepted,we can see the configuration and run test with  _.circleci/config.yml_

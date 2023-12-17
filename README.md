@@ -3,9 +3,9 @@
 This is an application where you can manage and use your rice cookers.
 
 It has been implemented in 4 different languages:
-- [!Ruby: (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/ruby)]
-- [!Php: (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/php)]
-- [!Go: (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/go)]
+- [!Ruby:] (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/ruby)
+- [!Php:] (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/php)
+- [!Go:] (https://github.com/hei-school/cc-d4-rice-cooker-ci-JonatanaRandria/tree/feature/go)
 - C
 
 ## Features :rocket:

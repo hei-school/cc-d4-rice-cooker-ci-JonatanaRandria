@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../main/feature/handling/handle_rc'
+require_relative '../main/service/Exception/handle_rc'
 require_relative '../main/model/rice_cooker'
 
 class Test < Minitest::Test
@@ -10,9 +10,9 @@ class Test < Minitest::Test
     end
 
     def test_change_state
-        RcHandler.change_state(2, "is_operational", true)
+        RcHandler.change_state(2, "is free", true)
         RcHandler.change_state(2, "is_cooking", true)
-        assert(RcHandler.get_rc(2).is_operational == true)
+        assert(RcHandler.get_rc(2).is free == true)
         assert(RcHandler.get_rc(2).is_cooking == true)
 
         RcHandler.change_state(1, "is_plugged", true)

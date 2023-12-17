@@ -24,7 +24,7 @@ Checkout into the __feature/go__ branch:
 
 To run the application, just enter the following command: 
 ```sheel
-    gp main.rb
+    go run src/main/main.go
 ```
 
 
